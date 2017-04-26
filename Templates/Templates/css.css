@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wapper {
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+	background-color:#CCC;
+
+}
+#header {
+	height:293px;
+	width:100%;
+	}
+#khungmenu {
+	width:100%;
+	height:30px;
+	background-color:#FF0;
+	}
+#logo {
+	float:left;
+}
+#ten {
+	font-size:20px;
+	float:left;
+	font-weight:bold;
+	background-color:#000;
+	line-height:30px;
+	color:#FFF;
+	 
+	}
+#menu {
+	
+	border:#FF0 1px solid;
+	}
+#menu ul {
+	margin:0px;
+	padding:0px;
+}
+#menu ul li {
+	display:inline;
+	float:left;
+	text-align:center;
+	line-height:30px;
+	width:100px;
+	border-right:#000 1px dotted ;
+	position:relative;
+	}
+#menu ul a{
+	font-size:18px; 
+	font-weight:bolder;
+	text-decoration:none;
+	color:#000;
+	}
+#menu ul li ul{
+	display:none;
+	}
+#menu ul li:hover ul{
+	display:block;
+	position:absolute;
+	}
+#menu ul li ul li{
+	background:#FF0;
+	border-bottom:#FFF dotted 1px;
+	border-left:#FFF dotted 1px;
+	}
+#menu ul li:hover{
+	background:#FC0;
+	transition:0.5s;
+	
+	}
+#menu ul li:hover a{
+	color:#000;
+	}
+.searchform {
+float: right;
+border:#000 1px solid;
+height:28px;
+width:150px;
+border-radius:10px;
+padding-left:5px;
+
+
+}
+.searchform input[type=text] 
+{
+width:100px;
+height:22px;
+border:#FFF 0px solid;
+background:#FF0;
+float:left;
+margin:2px 2px 2px 2px;
+padding-top:2px;
+color:#000;
+
+}
+.searchform input[type=submit] 
+{
+
+float:right;
+margin:2px 2px 2px 2px;
+height:20px;
+background:#000;
+color:#FFF;
+border-radius:5px;
+}
+#bannermini1 {
+	float:right;
+}
+#bannermini {
+	padding-top:7px;
+	float:right;
+
+}
+#banner {
+	float:left;
+}
+
+
+
+#content {
+	width:1000px;
+	height:800px;
+	margin:0 auto;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#leftcontent {
+	width:700px;
+	height:800px;
+	background-color:#FFF;
+	float:left;
+	border:#FF0 1px solid;
+
+}
+
+#khung-main {
+	width:200px;
+	height:250px;
+	float:left;
+	padding-left:20px;
+	}
+.image-main {
+	width:200px;
+	height:200px;
+	text-align:center;
+	}
+.image-main2 {
+	width:120px;
+	height:160px;
+	
+}
+
+.title-main {
+	text-align:center;
+	font-weight:bolder;
+	}
+.gia-main {
+	text-align:center;
+	color:#F00;
+	font-weight:bold;
+	}
+.re-main {
+	text-align:center;
+}
+	.giamoi-main {
+	text-align:center;
+}
+#khung-km {
+	width:700px;
+	height:250;
+}
+
+#rightcontent {
+	width:290px;
+	height:800px;
+	float:right;
+}
+#khungdangnhap {
+	width:288px;
+	height:200px;
+	background-color:#999;
+	border:#FF0 1px solid;
+}
+#dangnhap {
+	width:100%px;
+	height:30px;
+	background-color:#FF0;
+	font-weight:bold;
+	line-height:30px;
+	color:#000;
+	text-align:center;
+	
+}
+.taikhoan{
+	padding-top:10px;
+	}
+.taikhoan li{
+	list-style:none;
+	padding-bottom:15px;
+	}
+.taikhoan label{
+	width:100px;
+	float:left;
+	
+	}
+.button {
+	margin-left:100px;
+	}	
+.taotaikhoan {
+	width:100%;
+	
+	text-align:center;
+}
+#khungtintuc {
+	width:288px;
+	height:590px;
+padding-top:10px;
+text-decoration:none;
+	
+	}
+#tincongnghe {
+	width:100%;
+	height:30px;
+	background-color:#FF0;
+	font-weight:bold;
+	line-height:30px;
+	color:#000;
+	text-align:center;
+	border:#FF0 1px solid;
+	
+	
+}
+#tintuc {
+	width:100%;
+	height:92px;
+	background-color:#FFF;
+	border-bottom:#FF0 1px solid;
+	
+	
+	}
+#tintuc a{
+text-decoration:none;
+}
+.image {
+	width:100px;
+	height:60px;
+	float:right;
+	padding-top:20px;
+}
+.title {
+	position:relative;
+	padding-top:20px;
+	
+	}
+.image2 {
+	padding-left:2px;
+}
+.title2 {
+	position:relative;
+	text-align:center;
+	width:698px;
+	height:30px;
+	font-weight:bolder;
+	
+}
+.detail2 {
+	width:600px;
+	height:350px;
+	font-size:18px;
+	margin:0 auto;
+}
+
+
+#footer {
+	width:1000px;
+	height:100px;
+	background-color:#FF0;
+	margin:0 auto;
+}
+#diachiweb {
+	float:left;
+	padding-top:15px;
+	font-size:18px;
+	padding-left:10px;
+	
+	}
+#hotrokhachhang {
+	float:right;
+	padding-top:15px;
+	padding-right:10px;
+	font-size:18px;
+	}
+#taikhoan {
+	display:table;
+	margin:0 auto;
+	padding-top:30px;
+	
+	}
+#register {
+	width:100%;
+	height:597px;
+	}
+#reg-title {
+	width:100%;
+	height:30px;
+	text-align:center;
+	padding-top:35px;
+	font-size:24px;
+	font-weight:bold;
+}
+#reg-detail {
+	display:table;
+	margin:0 auto;
+	padding-top:30px;
+	}
+#reg-detail li{
+	padding-bottom:10px;
+	list-style:none;
+	width:100%;
+	}
+#reg-detail label{
+	float:left;
+	width:180px;
+	}
+.button {
+	margin-left:180px;
+	}
+#Thongtin {
+	font-size:24px;
+	font-weight:bolder;
+	color:#F00;
+	margin:0 auto;
+	padding-top:50px;
+	
+}
